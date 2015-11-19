@@ -8,11 +8,11 @@
 * Primo approccio al framework
 * Strumenti, filosofia e funzionamento
 
-## Davide B.
+## Davide Bellini
 * Metodologia di sviluppo (pattern, ...)
 * Test (unit, ...)
 
-## Matteo M.
+## Matteo Maselli
 * Test (unit, ...)
 
 ## Maurizio B.
@@ -21,11 +21,6 @@
 * Domain events
 
 ## Marco Gava
-## linkedin: https://it.linkedin.com/in/gavamarco
-## facebook: https://www.facebook.com/macmotp
-## twitter:  https://twitter.com/macmotp
-## mail:     gava.marco@gmail.com
-
 * Metodologia di sviluppo (pattern, ...)
 * Test (unit, ...)
 * Capacità di essere mantenibile nel tempo
@@ -44,7 +39,7 @@
 * Approfondimento framework
 * Esempi di applicativi sviluppati con Laravel (es. CMS)
 
-## Angelo M.
+## Angelo Maragna
 * Community
 * Approfondimento framework
 

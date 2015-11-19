@@ -21,6 +21,11 @@
 * Domain events
 
 ## Marco G.
+## linkedin: https://it.linkedin.com/in/gavamarco
+## facebook: https://www.facebook.com/macmotp
+## twitter:  https://twitter.com/macmotp
+## mail:     gava.marco@gmail.com
+
 * Metodologia di sviluppo (pattern, ...)
 * Test (unit, ...)
 * Capacità di essere mantenibile nel tempo

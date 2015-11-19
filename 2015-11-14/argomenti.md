@@ -20,7 +20,7 @@
 * Test (unit, ...)
 * Domain events
 
-## Marco G.
+## Marco Gava
 ## linkedin: https://it.linkedin.com/in/gavamarco
 ## facebook: https://www.facebook.com/macmotp
 ## twitter:  https://twitter.com/macmotp

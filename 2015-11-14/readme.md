@@ -1,6 +1,6 @@
 # 1° Laravel Meetup
 
-## Dettagli evento
+## Dettagli evento
 
 | Informazioni |                  |
 | -------------|:----------------:|

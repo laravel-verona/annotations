@@ -15,9 +15,11 @@ Tenutosi presso una sala gentilmente messa a disposizione da [Vecomp SpA](http:/
 * [Matteo Maselli](https://github.com/daack)
 * [Angelo Maragna](https://github.com/angelomaragna)
 
-ha seguito un piccolo giro di auto-presentazione dei partecipanti. In seguito, ognuno ha elencato le proprie aspettative sull'incontro, delineando così gli argomenti più sentiti e richiesti di cui cercheremo di parlare nei prossimi meetup.
+è iniziato con un piccolo giro di auto-presentazione dei partecipanti in cui ognuno, riportava in modo molto sintetico la propria esperienza con Laravel. Dopo un brevissimo break, ognuno ha elencato le proprie aspettative sull'incontro, aiutando così il gruppo a creare questo elenco degli [argomenti](https://github.com/laravel-verona/annotations/blob/master/2015-11-14/argomenti.md) più sentiti e richiesti.
+Questo materiale ci permetterà di predisporre e focalizzare i prossimi meetup su tematiche.
 
-Inoltre è stato stilato un elenco degli strumenti di sviluppo utilizzati da ognuno, permettendo così agli altri partecipanti di conoscerli e confrontarsi sulla loro utilità nel lavoro di tutti i giorni.
+Al fine di rendere gli incontri utili per tutti, abbiamo anche provveduto ad annotare l'[elenco degli strumenti](https://github.com/laravel-verona/annotations/blob/master/2015-11-14/strumenti.md) citati, e che quindi vengono utilizzati, permettendo così agli altri partecipanti di conoscerli e confrontarsi sulla loro utilità nel lavoro di tutti i giorni.
+
 
 ## Partecipanti
 

@@ -32,7 +32,7 @@ Inoltre è stato stilato un elenco degli strumenti di sviluppo utilizzati da ogn
 | **Michele D.**     |                  |
 | **Flavio P.**      |                  |
 | **Nicola B.**      |                  |
-| **Angelo Maragna** |                  |
+| **Angelo Maragna** | [Github](https://github.com/angelomaragna), [Facebook](https://www.facebook.com/ngitaly), [Twitter](https://twitter.com/2ndAngyel) |
 | **Karoly S.**      |                  |
 
 

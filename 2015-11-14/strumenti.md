@@ -10,12 +10,14 @@
 ## Certificati SSL
 * [Let's Encrypt](https://letsencrypt.org/)
 
-## Editor & IDE
+## Editor sviluppo & IDE
+* [Atom](https://atom.io/) (Mac OS, Windows, Linux)
+* [Coda 2](https://panic.com/coda/) (Mac OS)
+* [PHPStorm](https://www.jetbrains.com/phpstorm/) (Mac OS, Windows, Linux)
+* [Sublime Text 3](http://www.sublimetext.com/3) (Mac OS, Windows, Linux)
 
-* [Atom](https://atom.io/)
-* [Coda 2](https://panic.com/coda/)
-* [PHPStorm](https://www.jetbrains.com/phpstorm/)
-* [Sublime Text 3](http://www.sublimetext.com/3)
+## Editor Markdown
+* [MacDown](https://github.com/uranusjr/macdown) (Mac OS)
 
 ## Webserver & Database Server
 * [MAMP](https://www.mamp.info/en/) (Mac OS)
@@ -44,9 +46,9 @@
 
 
 ## GIT Client
-* [Tower](http://www.git-tower.com/)
-* [Github Desktop](https://desktop.github.com/)
-* [SourceTree](https://www.sourcetreeapp.com/)
+* [Tower](http://www.git-tower.com/) (Mac OS)
+* [Github Desktop](https://desktop.github.com/) (Mac OS, Windows)
+* [SourceTree](https://www.sourcetreeapp.com/) (Mac OS, Windows)
 * [GIT](https://git-scm.com/downloads) (Console)
 
 ## Deploy

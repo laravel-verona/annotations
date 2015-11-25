@@ -29,7 +29,7 @@ Al fine di rendere gli incontri utili per tutti, abbiamo anche provveduto ad ann
 | **Luca M.**        |                  |
 | **Davide Bellini** | [Github](https://github.com/billmn), [Linkedin](https://it.linkedin.com/in/davide-bellini-4755973b), [Facebook](https://www.facebook.com/billmn83), [Twitter](https://twitter.com/billmn) |
 | **Matteo Maselli** |                  |
-| **Maurizio B.**    |                  |
+| **Maurizio Bonani**| [GitHub](https://github.com/mauricius), [Linkedin](https://it.linkedin.com/in/maurizio-bonani-4958a955), [Facebook](https://www.facebook.com/maurizio.bonani), [Twitter](https://twitter.com/MaurizioBonani) |
 | **Marco Gava**     | [Github](https://github.com/macmotp), [Linkedin](https://it.linkedin.com/in/gavamarco), [Facebook](https://www.facebook.com/macmotp), [Twitter](https://twitter.com/macmotp) |
 | **Michele Damo**   | [Github](https://github.com/michelew3design), [Linkedin](https://www.linkedin.com/in/michele-damo-277146a1), [Facebook](https://www.facebook.com/michi.damo) |
 | **Flavio P.**      |                  |

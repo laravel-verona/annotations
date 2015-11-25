@@ -31,11 +31,8 @@ Al fine di rendere gli incontri utili per tutti, abbiamo anche provveduto ad ann
 | **Matteo Maselli** |                  |
 | **Maurizio B.**    |                  |
 | **Marco Gava**     | [Github](https://github.com/macmotp), [Linkedin](https://it.linkedin.com/in/gavamarco), [Facebook](https://www.facebook.com/macmotp), [Twitter](https://twitter.com/macmotp) |
-| **Michele D.**     |                  |
+| **Michele Damo**   | [Github](https://github.com/michelew3design), [Linkedin](https://www.linkedin.com/in/michele-damo-277146a1), [Facebook](https://www.facebook.com/michi.damo) |
 | **Flavio P.**      |                  |
 | **Nicola B.**      |                  |
 | **Angelo Maragna** | [Github](https://github.com/angelomaragna), [Facebook](https://www.facebook.com/ngitaly), [Twitter](https://twitter.com/2ndAngyel) |
 | **Karoly S.**      |                  |
-
-
-

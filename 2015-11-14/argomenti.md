@@ -15,10 +15,11 @@
 ## Matteo Maselli
 * Test (unit, ...)
 
-## Maurizio B.
+## Maurizio Bonani
 * Metodologia di sviluppo (pattern, ...)
 * Test (unit, ...)
 * Domain events
+* Missing: Composite PKs
 
 ## Marco Gava
 * Metodologia di sviluppo (pattern, ...)
@@ -50,4 +51,3 @@
 ## Altre proposte
 * Sviluppo API REST
 * Broadcasting con NodeJS
-

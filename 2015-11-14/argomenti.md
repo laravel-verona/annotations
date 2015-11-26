@@ -27,7 +27,7 @@
 * Capacità di essere mantenibile nel tempo
 * Processo sviluppo frontend (Elixir, ...)
 
-## Michele D.
+## Michele Damo
 * Performance (caching)
 * Approfondimento framework
 

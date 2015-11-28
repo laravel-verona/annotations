@@ -26,7 +26,7 @@ Al fine di rendere gli incontri utili per tutti, abbiamo anche provveduto ad ann
 | Nome / Cognome     | Contatti         |
 | -------------------|------------------|
 | **Marco S.**       |                  |
-| **Luca M.**        |                  |
+| **Luca Magnani**   | [Github](https://github.com/themagnifico), [Facebook](https://www.facebook.com/luke.laravel), [Twitter](https://twitter.com/LukeLaravel) |
 | **Davide Bellini** | [Github](https://github.com/billmn), [Linkedin](https://it.linkedin.com/in/davide-bellini-4755973b), [Facebook](https://www.facebook.com/billmn83), [Twitter](https://twitter.com/billmn) |
 | **Matteo Maselli** | [Github](https://github.com/daack), [Linkedin](https://it.linkedin.com/in/matteo-maselli-4349766b), [Facebook](https://www.facebook.com/matteo.maselli), [Twitter](https://twitter.com/daack) |
 | **Maurizio Bonani**| [Github](https://github.com/mauricius), [Linkedin](https://it.linkedin.com/in/maurizio-bonani-4958a955), [Facebook](https://www.facebook.com/maurizio.bonani), [Twitter](https://twitter.com/MaurizioBonani) |

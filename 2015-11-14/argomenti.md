@@ -4,7 +4,7 @@
 * Potenzialità del framework
 * Capacità di essere mantenibile nel tempo
 
-## Luca M.
+## Luca Magnani
 * Primo approccio al framework
 * Strumenti, filosofia e funzionamento
 

@@ -31,7 +31,7 @@
 * Performance (caching)
 * Approfondimento framework
 
-## Flavio P.
+## Flavio Pellizzer
 * Valutazione dei campi di applicabilità (e-commerce, ...)
 * Test (unit, ...)
 

@@ -16,7 +16,7 @@ Abbiamo introdotto alcune opportunità messe a disposizione dalle comunità ital
 
 In particolare, abbiamo ricordato il ciclo di interviste iniziato da [Laravel Italia](www.laravel-italia.it) in cui sviluppatori di varie esperienze raccontano del framework e dei loro contesti di utilizzo. Ogni sviluppatore Laravel è invitato a sottoporre la propria esperienza alla community italiana, come opportunità anche personale di far conoscere le proprie capacità. 
 
-A seguire, [Matteo Maselli](https://github.com/daack) e [Dadive Bellini](https://github.com/billmn) hanno tenuto due talk, iniziando da una presentazione di una applicazione di base per arrivare a parlare sommariamente di modelli e pratiche di sviluppo.
+A seguire, [Matteo Maselli](https://github.com/daack) e [Davide Bellini](https://github.com/billmn) hanno tenuto due talk, iniziando da una presentazione di una applicazione di base per arrivare a parlare sommariamente di modelli e pratiche di sviluppo.
 Gli argomenti toccati sono stati diversi: 
 - la struttura delle cartelle, 
 - il flusso che segue il framework nell'elaborazione di una richiesta, 

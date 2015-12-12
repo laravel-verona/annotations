@@ -14,7 +14,7 @@ Questo incontro prenatalizio, si è svolto presso la sede di [Vecomp SpA](http:/
 
 Abbiamo introdotto alcune opportunità messe a disposizione dalle comunità italiane di sviluppatori.
 
-In particolare, abbiamo ricordato il ciclo di interviste iniziato da Laravel Italia in cui sviluppatori di varie esperienze raccontano del framework e dei loro contesti di utilizzo. Ogni sviluppatore Laravel è invitato a sottoporre la propria esperienza alla community italiana, come opportunità anche personale di far conoscere le proprie capacità. 
+In particolare, abbiamo ricordato il ciclo di interviste iniziato da [Laravel Italia](www.laravel-italia.it) in cui sviluppatori di varie esperienze raccontano del framework e dei loro contesti di utilizzo. Ogni sviluppatore Laravel è invitato a sottoporre la propria esperienza alla community italiana, come opportunità anche personale di far conoscere le proprie capacità. 
 
 A seguire, [Matteo Maselli](https://github.com/daack) e [Dadive Bellini](https://github.com/billmn) hanno tenuto due talk, iniziando da una presentazione di una applicazione di base per arrivare a parlare sommariamente di modelli e pratiche di sviluppo.
 Gli argomenti toccati sono stati diversi: 
@@ -22,7 +22,7 @@ Gli argomenti toccati sono stati diversi:
 - il flusso che segue il framework nell'elaborazione di una richiesta, 
 - i sistemi di creazione automatica della struttura database (migrazioni), 
 - gli strumenti di accesso al database (model)
-- _to be completed_
+- __to be completed__
 
 
 

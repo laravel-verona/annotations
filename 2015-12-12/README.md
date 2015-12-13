@@ -44,7 +44,7 @@ Gli argomenti toccati sono stati diversi:
 | **Simone Rama**       |                   |
 | **Andrea Novella**    |                   |
 | **Andrea Tosato**     | [Github](https://github.com/pandazzurro), [Linkedin](https://it.linkedin.com/in/andreatosato), [Facebook](https://www.facebook.com/andrea.tosato) |
-| **Marco Zamana**      |                   |
+| **Marco Zamana**      | [Github](https://github.com/marcozama), [Linkedin](https://it.linkedin.com/in/marco-zamana-61b711a2), [Facebook](https://www.facebook.com/ZamaMarcoZamana) |
 | **Andrea Franchini**  |                   |
 | **Enrico Rossignoli** | [Github](https://github.com/Blaykry), [Linkedin](https://it.linkedin.com/in/enrico-rossignoli-44b74128), [Facebook](https://www.facebook.com/enrico.rossignoli), [Twitter](https://twitter.com/Enrico_Ross) |
 | **Ivan Gobetti**      | [Linkedin](https://it.linkedin.com/in/ivan-gobetti-ba5a8522), [Facebook](https://www.facebook.com/ivan.gobetti.1980), [Twitter](https://twitter.com/ivan_gobetti) |

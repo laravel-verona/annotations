@@ -43,7 +43,7 @@ Gli argomenti toccati sono stati diversi:
 | **Angelo Maragna**    | [Github](https://github.com/angelomaragna), [Facebook](https://www.facebook.com/ngitaly), [Twitter](https://twitter.com/2ndAngyel) |
 | **Simone Rama**       |                   |
 | **Andrea Novella**    |                   |
-| **Andrea Tosato**     |                   |
+| **Andrea Tosato**     | [Github](https://github.com/pandazzurro), [Linkedin](https://it.linkedin.com/in/andreatosato), [Facebook](https://www.facebook.com/andrea.tosato) |
 | **Marco Zamana**      |                   |
 | **Andrea Franchini**  |                   |
 | **Enrico Rossignoli** | [Github](https://github.com/Blaykry), [Linkedin](https://it.linkedin.com/in/enrico-rossignoli-44b74128), [Facebook](https://www.facebook.com/enrico.rossignoli), [Twitter](https://twitter.com/Enrico_Ross) |

@@ -1,4 +1,3 @@
-
 # 2° Laravel Meetup
 
 ## Dettagli evento
@@ -10,24 +9,27 @@
 | **Orari**    | 14:30 - 18:00    |
 
 ## Rapporto dell'incontro
-Questo incontro prenatalizio si è svolto presso la sede di [Vecomp SpA](http://www.vecomp.it).
-Abbiamo iniziato con un riepilogo del precedente incontro ed una rapida autopresentazione di ogni partecipante.
+Questo incontro pre-natalizio si è svolto presso la sede di [Vecomp SpA](http://www.vecomp.it) a Verona.
 
-Successivamenete sono state introdotte alcune opportunità messe a disposizione dalle comunità italiane di sviluppatori;
-in particolare, abbiamo ricordato il ciclo di interviste iniziato da [Laravel Italia](http://www.laravel-italia.it) in cui sviluppatori di varie esperienze raccontano del framework e dei loro contesti di utilizzo.
+Abbiamo iniziato con un riepilogo del precedente incontro ed una rapida auto-presentazione di ogni partecipante. Successivamenete sono state introdotte alcune opportunità messe a disposizione dalle comunità italiane di sviluppatori; in particolare, abbiamo ricordato il ciclo di interviste iniziato da [Laravel Italia](http://www.laravel-italia.it) in cui sviluppatori di varie esperienze raccontano del framework e dei loro contesti di utilizzo.
 
-Ogni sviluppatore Laravel è invitato a sottoporre la propria esperienza alla community italiana come opportunità, anche personale, di far conoscere le proprie capacità.
+A seguire, [Matteo Maselli](https://github.com/daack) e [Davide Bellini](https://github.com/billmn) hanno tenuto due talk, iniziando dalla struttura di un progetto base per arrivare a parlare sommariamente di modelli e pratiche di sviluppo.
 
-A seguire, [Matteo Maselli](https://github.com/daack) e [Davide Bellini](https://github.com/billmn) hanno tenuto due talk, iniziando da una presentazione di una applicazione di base per arrivare a parlare sommariamente di modelli e pratiche di sviluppo.
+Gli argomenti toccati nel **primo talk** da Matteo sono stati diversi:
 
-Gli argomenti toccati sono stati diversi:
+- Struttura delle cartelle di un progetto
+- Gestione delle variabili di Environment
+- Flusso seguito dal framework durante l'elaborazione di una richiesta
+- Introduzione alle migrazioni (per la gestione della struttura del DB)
+- Creazione di una risorsa attraverso routing, model e controller
 
-- La struttura delle cartelle
-- Il flusso che segue il framework nell'elaborazione di una richiesta
-- I sistemi di creazione automatica della struttura database (migrazioni)
-- Gli strumenti di accesso al database (model)
-- ___to be completed___
+Nel **secondo talk**, tenuto da Davide, si è invece discusso di:
 
+- Service Container (aka IoC Container - Inversion of Control)
+- Dependency Injection attraverso il costruttore e la Method Injection
+- Binding tra interfaccia e implementazione
+- Design Pattern: Repository e Facade
+- Coding Style: PSR-2 e strumenti utili
 
 ## Partecipanti
 

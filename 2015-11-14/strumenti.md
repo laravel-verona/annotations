@@ -1,8 +1,12 @@
 # Strumenti
 
-## API Testing
+## API Client
+* [PAW](https://luckymarmot.com/paw) (Mac OS)
 * [Postman](https://www.getpostman.com/) (Chrome)
-* [Colorzilla](http://www.colorzilla.com/) (Chrome, Firefox)
+* [SOAP UI](http://www.soapui.org/) (Mac OS, Windows, Linux)
+* [Cocoa Rest Client](http://mmattozzi.github.io/cocoa-rest-client/) (Mac OS)
+
+## Formattazione
 * [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) (Chrome)
 
 ## Editor sviluppo & IDE
@@ -15,7 +19,7 @@
 * [MacDown](https://github.com/uranusjr/macdown) (Mac OS)
 
 ## Webserver & Database Server
-* [MAMP](https://www.mamp.info/en/) (Mac OS)
+* [MAMP](https://www.mamp.info/en/) (Mac OS, Windows)
 * [Postgres.app](http://postgresapp.com/) (Mac OS)
 
 ## Database Client
@@ -68,5 +72,5 @@
 * [Firebase](https://www.firebase.com/)
 
 ## Varie
+* [Colorzilla](http://www.colorzilla.com/) (Chrome, Firefox)
 * [SIP Colorpicker](https://itunes.apple.com/it/app/sip/id507257563?mt=12) (Mac OS)
-* [SOAP UI](http://www.soapui.org/) (Mac OS, Windows, Linux)

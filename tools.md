@@ -1,5 +1,3 @@
-# Strumenti
-
 ## API Client
 * [PAW](https://luckymarmot.com/paw) (Mac OS)
 * [Postman](https://www.getpostman.com/) (Chrome)

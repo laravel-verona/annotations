@@ -38,9 +38,6 @@ Nel **terzo talk** Maurizio ha esposto le novità di Laravel 5.2:
 - Eloquent Global Scope
 - Funzionalità minori
 
-Le slide relative a questo talk sono disponibili a questo indirizzo:
-[http://mauriziobonani.com/laravel-talk/](http://mauriziobonani.com/laravel-talk/)
-
 
 ## Partecipanti
 

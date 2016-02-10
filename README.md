@@ -5,3 +5,8 @@
 
 ## Goals
 In questo repository vogliamo riportare, di volta in volta, gli appunti degli incontri, così che siano alla portata di tutti i partecipanti e che ognuno possa contribuire con informazioni sempre più utili e dettagliate.
+
+## Richiedi un Talk o proponi un progetto
+Ti piacerebbe che un argomento venisse trattato durante il Meetup, magari con un Talk dedicato? Oppure hai in mente un progetto su cui possiamo lavorare tutti insieme?
+
+[Apri una issue](https://github.com/laravel-verona/annotations/issues) in questo repository e proponi le tue idee, saremo felici di discuterle e approfondirle!

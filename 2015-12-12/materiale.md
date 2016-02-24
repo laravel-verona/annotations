@@ -4,8 +4,7 @@ Nei talk è stato utilizzato un progetto, rigorosamente realizzato con Laravel, 
 
 Per quanto riguarda il secondo talk sono disponibili alcune Slide:
 
-- [Formato Powerpoint (pptx)](https://github.com/laravel-verona/annotations/blob/master/2015-12-12/materiale/2%C2%B0%20Laravel%20Meetup%20Verona.pptx?raw=true)
-- [Formato PDF](https://github.com/laravel-verona/annotations/blob/master/2015-12-12/materiale/2%C2%B0%20Laravel%20Meetup%20Verona.pdf?raw=true)
+- Davide Bellini - [Design Patterns](http://www.laravelverona.xyz/repository/annotations/2015-12-12/slides/design-patterns)
 
 Mentre per il Coding Style ecco alcuni link utili:
 

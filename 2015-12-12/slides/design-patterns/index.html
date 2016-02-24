@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Laravel Verona</title>
+
+        <meta name="description" content="">
+        <meta name="author" content="Davide Bellini">
+
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+        <link rel="stylesheet" href="css/reveal.css">
+        <!-- <link rel="stylesheet" href="css/theme/black.css" id="theme"> -->
+        <!-- <link rel="stylesheet" href="css/theme/white.css" id="theme"> -->
+        <!-- <link rel="stylesheet" href="css/theme/league.css" id="theme"> -->
+        <!-- <link rel="stylesheet" href="css/theme/sky.css" id="theme"> -->
+        <link rel="stylesheet" href="css/theme/beige.css" id="theme">
+        <!-- <link rel="stylesheet" href="css/theme/simple.css" id="theme"> -->
+        <!-- <link rel="stylesheet" href="css/theme/serif.css" id="theme"> -->
+        <!-- <link rel="stylesheet" href="css/theme/blood.css" id="theme"> -->
+        <!-- <link rel="stylesheet" href="css/theme/night.css" id="theme"> -->
+        <!-- <link rel="stylesheet" href="css/theme/moon.css" id="theme"> -->
+        <!-- <link rel="stylesheet" href="css/theme/solarized.css" id="theme"> -->
+
+        <!-- Code syntax highlighting -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <!-- Emoji CSS -->
+        <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <div class="reveal">
+            <!-- Any section element inside of this container is displayed as a slide -->
+            <div class="slides">
+
+                <!-- TITOLO -->
+                <section>
+                    <h1>DESIGN PATTERNS</h1>
+                    <p>
+                        <small>Created by <a href="http://github.com/billmn">Davide Bellini</a> / <a href="http://twitter.com/billmn">@billmn</a></small>
+                    </p>
+                </section>
+
+                <section>
+                    <h2>SERVICE CONTAINER<br><small>aka IoC Container</small></h2>
+
+                    <p class="fragment">I Service Container sono uno strumento per gestire le dipendenze delle classi e la Dependency Injection</p>
+                    <p class="fragment">Consentono la rapida sostituzione dell’implementazione di un servizio</p>
+                    <p class="fragment">Facilitano la simulazione di un oggetto durante la fase di testing (Mock)</p>
+                </section>
+
+                <section>
+                    <h2>SERVICE CONTAINER<br><small>FTW</small></h2>
+
+                    <p class="fragment">Iniezione delle dipendenze attraverso il type-hinting nel costruttore o in un metodo (da Laravel 5.0)</p>
+                    <p class="fragment">Binding di un’interfaccia con la propria implementazione</p>
+                    <p class="fragment">Facile recupero delle istanze dal container attraverso il nome della classe o dell’interfaccia</p>
+                </section>
+
+                <section>
+                    <h2>REPOSITORY PATTERN</h2>
+
+                    <blockquote>“Mediates between the domain and data mapping layers using a collection-like interface for accessing domain objects.” – martinfowler.com</blockquote>
+
+                    <p class="fragment">Consente, ad esempio, di slegarsi da una specifica tecnologia di persistenza dati e di sostituirla senza dover modificare tutto il codice.</p>
+                    <p class="fragment">Facilita la fase di testing</p>
+                </section>
+
+                <section>
+                    <h2>FACADE PATTERN</h2>
+
+                    <blockquote>“… indica un oggetto che permette, attraverso un'interfaccia più semplice, l'accesso a sottosistemi che espongono interfacce complesse e molto diverse tra loro, nonché a blocchi di codice complessi” – Wikipedia</blockquote>
+
+                    <p>In Laravel forniscono una interfaccia statica per accedere ai metodi delle classi disponibili nel Service Container</p>
+
+<pre><code class="hljs" data-trim style="text-align: center;">
+Mail::send(…) == app(‘mailer’)->send(...)
+</code></pre>
+                </section>
+
+                <section>
+                    <h2>CODING STYLE</h2>
+
+                    <blockquote>“L'intento … è di ridurre l'attrito cognitivo quando si esamina codice scritto da diversi autori” – php-fig.org</blockquote>
+
+                    <p class="fragment">Laravel segue le linee guida definite dallo standard PSR-2 per lo stile di scrittura del codice</p>
+                    <p class="fragment">E’ fondamentale seguire le linee guida se intendete contribuire al framework</p>
+                </section>
+
+                <section>
+                    <h2>CODING STYLE<br><small>Strumenti Utili</small></h2>
+
+                    <p><a href="http://www.php-fig.org/psr/psr-2">http://www.php-fig.org/psr/psr-2</a></p>
+                    <br>
+
+                    <table>
+                        <caption>
+                            <h3>Must-Use tools:</h3>
+                        </caption>
+                        <tbody>
+                            <tr>
+                                <td>PHP-CS-FIXER</td>
+                                <td><a href="http://cs.sensiolabs.org/">http://cs.sensiolabs.org/</a></td>
+                            </tr>
+                            <tr>
+                                <td>STYLE-CI</td>
+                                <td><a href="https://styleci.io/">https://styleci.io/</a></td>
+                            </tr>
+                            <tr>
+                                <td>NITPICK</td>
+                                <td><a href="https://nitpick-ci.com/">https://nitpick-ci.com/</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                <section style="text-align: left;">
+                    <h1>GRAZIE</h1>
+                    <p>Twitter: <a href="http://twitter.com/billmn">@billmn</a></p>
+                    <p>Github: <a href="https://github.com/billmn">https://github.com/billmn</a></p>
+                </section>
+            </div>
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+
+        <script>
+            // Full list of configuration options available at:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+
+                transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+                // Optional reveal.js plugins
+                dependencies: [
+                    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'plugin/zoom-js/zoom.js', async: true },
+                    { src: 'plugin/notes/notes.js', async: true }
+                ]
+            });
+        </script>
+    </body>
+</html>

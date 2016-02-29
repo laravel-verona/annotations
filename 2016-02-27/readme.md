@@ -29,10 +29,12 @@ Nel **secondo talk**, tenuto da Davide, si è parlato di Best Practice nello svi
 
 Nel **terzo talk** Angelo ha dato alcuni consigli su come cercare lavoro in UK:
 
-- Risorse per cercare annunci e proporre la propria candidatura ([http://www.reed.co.uk/](http://www.reed.co.uk/))
+- Risorse per cercare annunci e proporre la propria candidatura ([http://www.reed.co.uk/](http://www.reed.co.uk/), ...)
 - Come funziona il processo di selezione dopo il contatto del Recruiter
 - Di cosa ho bisogno per iniziare? (numero telefono UK, National Insurance Number, ...)
 - Come cercare un appartamento e come funzionano gli affitti
+
+>  Nella sezione "Materiale" potete trovare il codice, le slide ed altri links utilizzati nei Talk.
 
 ## Partecipanti
 

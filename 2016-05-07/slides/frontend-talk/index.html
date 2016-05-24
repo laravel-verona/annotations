@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Frontend with Laravel - Elixir</title>
+
+		<meta name="description" content="Frontend with Laravel - Elixir">
+		<meta name="author" content="Nicola Bosco">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/blood.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Frontend with Laravel <br> <b>Elixir</b></h1>
+					<p>
+						<small>Created by <a href="https://www.facebook.com/boschin87">Nicola Bosco</a> / <a href="https://twitter.com/Jazzy_Tuna">@Jazzy_Tuna</a></small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Il fantastico mondo del Frontend<span class="fragment" style="color:darkred" >?</span></h2>
+
+					<ul>
+						<li class="fragment">Compilazione Sass/Less</li>
+						<li class="fragment">Compilazione Js</li>
+						<li class="fragment">Gestione Librerie esterne</li>
+						<li class="fragment">Ottimizzazione richieste</li>
+						<li class="fragment">Ottimizzazione Immagini</li>
+						<li class="fragment">Task Oscuri</li>
+					</ul>
+
+					<h3 class="fragment">Come posso organizzare le risorse/task su Laravel?</h3>
+
+				</section>
+
+				<section>
+					<h2>Elixir</h2>
+					<p>In Laravel tutto è già stato organizzato e pronto all'uso.</p>
+					<img src="img/rainbows.gif" alt="Il mirabilante mondo del Frontend">
+				</section>
+
+
+				<section>
+					<h2>Come funziona Elixir</h2>
+					<p>Elixir si appoggia su <a href="http://gulpjs.com/">Gulp</a> e aggiunge funzionalità dedicate a Laravel</p>
+					<img src="img/gulp.png" alt="">
+					<p>Predispone da subito una struttura degli assets e ha i task più generici già configurati</p>
+				</section>
+
+				<section>
+					<h2>Cosa posso fare con Elixir?</h2>
+
+					<ul>
+						<li class="fragment" >Compilazione css e js (Sass,Less,PostCss,Coffescript,Babel,Browserify)</li>
+						<li class="fragment" >Concatenazione/minificazione css e js</li>
+						<li class="fragment" >Versioning delle risorse</li>
+						<li class="fragment" >Unit testing php/js</li>
+						<li class="fragment" >Ottimizzazione immagini (via gulp)</li>
+						<li class="fragment" >Linting css/js (via gulp)</li>
+						<li class="fragment" >Livereload (via gulp)</li>
+					</ul>
+
+				</section>
+
+				<section>
+					<h2>Esempio flusso di building</h2>
+
+					<div class="fragment">
+						<h4>Compilazione/Concatenazione sass in all.css</h4>
+					</div>
+
+					<div class="fragment">
+						<h3 style="transform: rotate(90deg)">&#10151;</h3>
+						<h4>Autoprefixer</h4>
+					</div>
+
+					<div class="fragment">
+						<h3 style="transform: rotate(90deg)">&#10151;</h3>
+						<h4>Minificazione css</h4>
+					</div>
+
+					<div class="fragment">
+						<h3 style="transform: rotate(90deg)">&#10151;</h3>
+						<h4>Versioning css</h4>
+					</div>
+
+				</section>
+
+				<section>
+					<h2>Come si installa?</h2>
+
+<pre class="fragment" ><code  >npm install</code></pre>
+
+					<p class="center">
+						<img class="fragment" src="http://i.giphy.com/yEtv1wWZpmG2s.gif" alt="">
+					</p>
+					<p>
+						<small class="fragment" >Ci mette un pochino...</small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Come si configura?</h2>
+
+					<div class="fragment">
+						<h3  >Tramite il gulpfile.js</h3>
+						<p>
+							Qua verranno configurati Elixir e tutti i task utilizzati nel progetto.
+						</p>
+					</div>
+					<br>
+					<p class="fragment">
+						Elixir fornisce:
+					</p>
+					<ul class="fragment">
+						<li>Compilatori sass/less/coffescript/babel/browserify</li>
+						<li>Concatenatori css/js</li>
+						<li>Autoprefixer</li>
+						<li>Versioning</li>
+						<li>PhpUnit Testing</li>
+					</ul>
+				</section>
+
+
+
+				<section>
+					<h2>Come sono organizzati gli assets</h2>
+
+					<ul>
+						<li>Raw Css in /resources/assets/css</li>
+						<li>Raw Sass in /resources/assets/sass</li>
+						<li>Raw Less in /resources/assets/less</li>
+						<li>Raw Js in /resources/assets/js</li>
+					</ul>
+
+					<ul>
+						<li>Public Css in /public/css</li>
+						<li>Public Js in /public/js</li>
+					</ul>
+
+					<p>Si possono comunque aggiungere/modificare le cartelle (es: /resources/assets/vendor/)</p>
+
+				</section>
+
+				<section>
+					<h2>Configurazione di Elixir</h2>
+
+					<h4 class="fragment">Se proprio si vuole modificare la configurazione:</h4>
+
+					<ul class="fragment">
+						<li><b>assetsDir:</b> la path degli assets, di default è resources/assets</li>
+						<li><b>cssOutput:</b> la path di output dei css, di default è public/css</li>
+						<li><b>jsOutput:</b> la path di output dei js, di default è public/js</li>
+						<li><b>sourcemaps:</b> generare la sourcemap? di default è true</li>
+					</ul>
+
+
+				</section>
+
+				<section>
+					<h2>Come si utilizza?</h2>
+
+					<div class="fragment">
+						<p>
+							Esecuzione dei task
+						</p>
+						<pre><code data-trim >gulp</code></pre>
+					</div>
+					<br>
+					<div class="fragment">
+						<p>
+							Esecuzione di un singolo task (es: custom-task)
+						</p>
+						<pre><code data-trim >gulp custom-task</code></pre>
+					</div>
+					<br>
+					<div class="fragment">
+						<p>
+							Monitoraggio continuo e riesecuzione dei task
+						</p>
+						<pre><code data-trim >gulp watch</code></pre>
+					</div>
+
+				</section>
+
+				<section>
+					<h2>Come si utilizza?</h2>
+
+					<div class="fragment">
+						<p>
+							Solo compilazione css
+						</p>
+						<pre><code data-trim >gulp styles</code></pre>
+					</div>
+					<br>
+					<div class="fragment">
+						<p>
+							Solo compilazione scripts
+						</p>
+						<pre><code data-trim >gulp scripts</code></pre>
+					</div>
+					<br>
+					<div class="fragment">
+						<p>
+							Test Driven Development
+						</p>
+						<pre><code data-trim >gulp tdd</code></pre>
+					</div>
+
+				</section>
+
+				<section>
+					<h2>Task principali</h2>
+					<img src="img/waiting.gif" alt="">
+				</section>
+
+				<section>
+					<h2>Compilazione Css</h2>
+
+					<h3>Sass (con LibSass)</h3>
+<pre><code data-trim >
+// da /resources/assets/sass a /public/css/app.css
+elixir(function(mix) {
+	mix.sass('app.scss');
+});</code></pre>
+					<p>Si può usare anche RubySass ma installando i pacchetti necessari</p>
+
+
+					<h3>Less</h3>
+<pre><code data-trim >
+// da /resources/assets/less a /public/css/app.css
+elixir(function(mix) {
+	mix.less('app.less');
+});</code></pre>
+
+				</section>
+
+				<section>
+					<h2>Compilazione Js</h2>
+
+					<h3>CoffeScript</h3>
+					<pre><code data-trim >
+// da /resources/assets/coffee a /public/js/caffe.js
+mix.coffee(['caffe.coffee']);</code></pre>
+
+<h3>Browserify</h3>
+<pre><code data-trim >
+// inclusione di color (npm install color)
+elixir.config.js.browserify.transformers.push({
+    name: 'color',
+    options: {}
+});
+
+// da /resources/assets/js/main.js a /public/js/main.js
+mix.browserify('main.js');</code></pre>
+
+</section>
+				<section>
+					<h2>Compilazione Js</h2>
+<h3>Babel</h3>
+<pre><code data-trim >
+//da /resources/assets/js/* a /public/js/all.js (come mix.script!)
+mix.babel([
+        'jsx-component.js',
+    ]);</code></pre>
+
+				</section>
+
+				<section>
+					<h2>Concatenazione</h2>
+
+
+
+<pre><code data-trim >
+//Compilazione da /resources/assets/css in /public/css/all.css
+mix.styles([
+	'module1.css',
+	'module2.css'
+]);</code></pre>
+
+
+<pre><code data-trim >
+//Compilazione da /resources/assets/js in /public/js/all.js
+//(come mix.babel!)
+mix.scripts([
+	'module1.js',
+	'module2.js'
+]);</code></pre>
+
+					<p>
+						Si possono concatenare tutti i file di una directory o file
+						da diverse directory specificando le path.
+					</p>
+
+				</section>
+
+				<section>
+					<h2>Versioning/Hashing</h2>
+
+					<p>
+						Aggiunge un hash al filename come cache busting.
+					</p>
+<pre><code data-trim >mix.version('css/main.css'); // public/build/css/main-39d5f9a7.css
+mix.version('js/app.js'); // public/build/js/app-78efbae6.js</code></pre>
+					<p>
+						Nei template blade possiamo usare le funzioni di Elixir per recuperare il corretto filename versionato
+					</p>
+<pre><code data-trim ><link rel="stylesheet" href="{{ elixir('css/main.css') }}" />
+<script src="{{ elixir('js/main.js') }}"></script></code></pre>
+
+				</section>
+
+				<section>
+					<h2>Task personalizzati?</h2>
+					<p>
+						Certo! con Elixir si ha la possibilità di creare task personalizzati da eseguire.
+					</p>
+<pre><code data-trim >
+elixir.extend('logDate', function() {
+	gulp.task('date_logger', function() {
+	console.log(new Date());
+	});
+
+	// this.registerWatcher('date_logger', '/**/*.js');
+	return this.queueTask('date_logger');
+});
+
+mix.logDate();
+</code></pre>
+				</section>
+
+				<section>
+					<h2>Let's practice!</h2>
+				</section>
+
+				<section>
+					<h2>Risorse utili</h2>
+
+					<ul>
+						<li>
+							Best Gulp Plugins
+							<br>
+							<a target="_blank" href="https://github.com/Pestov/essential-gulp-plugins">
+							https://github.com/Pestov/essential-gulp-plugins
+							</a>
+						</li>
+						<li>PostCss
+							<br><a target="_blank" href="http://postcss.parts/">http://postcss.parts/</a></li>
+						<li>
+							Elixir Live Reload <br>
+							<a target="_blank" href="https://www.npmjs.com/package/laravel-elixir-livereload">
+								https://www.npmjs.com/package/laravel-elixir-livereload
+							</a>
+						</li>
+					</ul>
+
+				</section>
+
+				<section>
+					<h2>
+						Thank you!
+					</h2>
+
+					<br>
+					<p>
+						<a target="_blank" href="https://github.com/nicolabosco87/">//github.com/nicolabosco87</a>
+						<br>
+						<a target="_blank" href="https://github.com/nicolabosco87/laravel-frontend-talk">GitHub - Practice</a>
+						<br>
+						<a target="_blank" href="https://github.com/nicolabosco87/laravel-frontend-talk-slides">GitHub - Slides</a>
+					</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
